@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+   background: linear-gradient(20deg,rgb(255, 0, 0)0%,rgb(187, 108, 108)50%, rgb(255, 60, 0)100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*  */
+/* 
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+} */
+.elements div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 3px solid black;
+
+}
+.elements div:nth-child(1){
+    top: 31%;
+    left: 41%;
+    animation: animate 10s linear infinite;
+    z-index: 20;
+}
+.elements div:nth-child(2){
+    top: 100%;
+    left: 21%;
+    animation: animate 6s linear infinite;
+}
+.elements div:nth-child(3){
+    top: 51%;
+    left: 6%;
+    animation: animate 4s linear infinite;
+}
+.elements div:nth-child(4){
+    top: 41%;
+    left: 86%;
+    animation: animate 10s linear infinite;
+}
+.elements div:nth-child(5){
+    top: 100%;
+    left:76%;
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(-90px) rotate(360deg);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(180deg);
+        border-radius: 20px;
+        opacity: 0;
+    }
+}
+/*  */
+
+body{
+    scroll-behavior: smooth;
+    transition: 0.7s ease-in-out;
+}
+/* first part */
+.a1-text img{
+    width: 5%;
+    padding: 15px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20%;
+    
+}
+.a-text{
+    background: linear-gradient(70deg,rgb(255, 0, 0)0%,rgb(187, 108, 108)50%, rgb(255, 60, 0)100%);
+    border-bottom-right-radius: 150px;
+    padding-bottom: 50px;
+}
+.a1-text {
+padding-left: 40px;
+padding-top: 90px;
+}
+.a1-text h3{
+    padding-top: 20px;
+    font-size: 36px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.a1-text p{
+    font-size: 20px;
+    width: 50%;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.a1-text button{
+    width: 130px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background: transparent;
+    
+}
+.a1-text a{
+    color: aliceblue;
+}
+.a-text img{
+    width: 100%;
+    padding-right: 50px;
+}
+.carousel h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.carousel {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+   
+  }
+  .cards img{
+      width: 20% !important; 
+  }
+  
+
+  .owl-carousel .owl-item img {
+    display: inline !important;
+  }
+  .owl-dot {
+    width: 25px;
+    height: 5px;
+    background-color: #d3d3d3 !important;
+    margin-right: 10px;
+    border-radius: 50px;
+    transition: 0.5s ease;
+  } 
+  .owl-dots {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .owl-dot:hover,
+  .owl-dot.active {
+    background: linear-gradient(70deg,rgb(255, 0, 0)0%,rgb(187, 108, 108)50%, rgb(255, 60, 0)100%) !important;
+  }
+  
+  .cards {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 2px 2px 6px rgb(87, 87, 87);
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+  }
+.cards:hover{
+    transform: scale(1.01);
+    transition: 0.4s ease-in-out;
+}
+.about{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.about h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.about p{
+    font-size: 17px;
+    line-height: 35px;
+}
+
+
+/*  */
+
+
+/*  */
+.e-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .e1-text h5 {
+    padding-top: 20px;
+  }
+  .e1-text {
+    box-shadow: 2px 2px 5px rgb(83, 83, 83);
+    padding: 20px;
+    cursor: pointer;
+  }
+  .e1-text:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+  }
+  #live{
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    background: transparent;
+    
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.contact1 img{
+    width: 20%;
+    padding-top: 10px;
+}
+
+.contact1{
+    
+    max-width: 300px !important;
+    text-align: center;
+    margin-left: 40px;
+    box-shadow: 2px 2px 5px rgb(53, 53, 53);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.contact1 img:hover{
+    position: relative;
+    bottom: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    font-size: 22px;
+}
+
+#comment{
+    background: linear-gradient(70deg,rgb(255, 0, 0)0%,rgb(187, 108, 108)50%, rgb(255, 60, 0)100%);
+    margin-top: 40px;
+}
+
+
+  /*  */
+@media(max-width:768px){
+    .a1-text img{
+        width: 15%;
+        padding: 15px;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 20%;
+        
+    }
+    .a1-text{
+        padding-left: 20px;
+    }
+    .a1-text h3{
+        padding-top: 20px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .a1-text p{
+        font-size: 20px;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .a2-text img{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .about{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .about h2{
+        font-weight: 600;
+        font-size: 35px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    
+    .about p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .e1-text img {
+        width: 100%;
+      }
+      .e1-text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .e1-text h5 {
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+    
+      .e1-text p {
+        padding-left: 10px;
+      }
+      .contact1{
+        max-width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 40px;
+        border-radius: 20px;
+       
+    
+
+    }
+    .contact1 img{
+        width: 30%;
+    }
+    .elements div:nth-child(1){
+        top: 31%;
+        left: 41%;
+        animation: animate 10s linear infinite;
+        z-index: 20;
+    }
+    .elements div:nth-child(2){
+        top: 100%;
+        left: 21%;
+        animation: animate 6s linear infinite;
+    }
+    .elements div:nth-child(3){
+        top: 51%;
+        left: 6%;
+        animation: animate 4s linear infinite;
+    }
+    .elements div:nth-child(4){
+        top: 70%;
+        z-index: 10;
+        left: 26%;
+        animation: animate 10s linear infinite;
+    }
+    .elements div:nth-child(5){
+        top: 70%;
+        z-index: 10;
+        left:76%;
+        animation: animate 8s linear infinite;
+    }
+}
+
+@media(min-width:768px){
+    .a1-text img{
+        width: 10%;
+        padding: 15px;
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 20%;
+        
+    }
+    .a-text{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .a2-text img{
+        width: 100%;
+        padding-right: 20px;
+    }
+    .a1-text p{
+        font-size: 20px;
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .e-text {
+        margin-left: 40px;
+      }
+      .e1-text {
+        max-width: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 20px;
+      }
+      .e1-text img {
+        width: 100%;
+      }
+
+      /*  */
+      .over{
+        display: flex;
+    flex-wrap: wrap;
+    flex-grow: row;
+    text-align: center;
+    margin-left: 90px;
+    }
+     
+}
+
+@media(min-width:1024px){
+    .a1-text img{
+        width: 7%;
+        padding: 15px;
+        border: 3px solid rgb(238, 238, 238);
+        border-radius: 20%;
+        
+    }
+    .a2-text img{
+        width: 80%;
+        padding-right: 50px;
+        position: relative;
+        bottom: 20px;
+    }
+    .a1-text p{
+        font-size: 20px;
+        width: 70%;
+        padding-top: 20px;
+    }
+
+    .e1-text{
+        max-width: 350px;
+    }
+}
