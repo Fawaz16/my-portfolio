@@ -266,7 +266,16 @@ footer p{
     background: linear-gradient(70deg,rgb(255, 0, 0)0%,rgb(187, 108, 108)50%, rgb(255, 60, 0)100%);
     margin-top: 40px;
 }
-
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all  0.5s ease-in-out;
+}
+.reveal.active{
+    transform: translateY(-0px);
+    opacity: 1;
+}
 
   /*  */
 @media(max-width:768px){
